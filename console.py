@@ -199,6 +199,7 @@ class HBNBCommand(cmd.Cmd):
                 object_list.append(value.__str__())
         print(object_list)
 
+
 if __name__ == "__main__":
     """ Start point for loop """
     HBNBCommand().cmdloop()
